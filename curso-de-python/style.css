@@ -97,4 +97,33 @@ div{
 
 #div2{
     margin-right: 15%;
+    margin-bottom: 100px;
+}
+
+.botão2{
+    font-size: 2rem;
+    background: linear-gradient(45deg,#d3d300, #c0c001);
+    width: max-content;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.strg3{
+    margin-left: 40%;
+}
+
+.ainda{
+    font-size: 2rem;
+}
+
+.saiba-mais{
+    text-align: center;
+    width: 75%;
+    margin-left: 12%;
+}
+
+.texto-ainda{
+    font-size: 1.5rem;
 }
