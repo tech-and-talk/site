@@ -172,7 +172,7 @@ div{
     }
 
     .txt1{
-        margin-left: 0px;
+        margin: 0 auto;
     }
 
     .saiba-mais{
@@ -190,5 +190,141 @@ div{
 
     .strg3{
         margin-left: 16%;
+    }
+}
+@media screen and (min-width: 1900px){
+    .título{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    #t1{
+        margin-top: 50px;
+    }
+    
+    #t2, #t3{
+        margin-top: -15px;
+    }
+    
+    .strg{
+        color: #ffff00;
+    }
+    
+    .p1{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    div{
+        float: unset;
+    }
+    
+    iframe{
+        border-radius: 10px;
+        box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.774);
+        width: 70%;
+        height: 600px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .p2{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .p3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .botão{
+        font-size: 2rem;
+        background: linear-gradient(45deg,#01d301, #008000);
+        width: max-content;
+        padding: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+        border-radius: 10px;
+    }
+
+    #botão1{
+        margin-left: 34.7%;
+    }
+    
+    .strg2{
+        margin-left: 0px;
+    }
+    
+    #tit{
+        color: #ffff00;
+    }
+    
+    .pag2{
+        width: 350px;
+    }
+    
+    .segura{
+        width: 350px;
+        text-align: center;
+        margin-top: -15px;
+    }
+    
+    .txt1{
+        margin-left: 15%;
+        text-align: center;
+        width: 350px;
+    }
+    
+    img{
+        width: 100px;
+        height: auto;
+        margin-top: 80px;
+    }
+    
+    #div2{
+        margin-right: 15%;
+        margin-bottom: 100px;
+        margin-left: 60%;
+        margin-top: -340px;
+    }
+
+    #div1{
+        margin-left: 20%;
+    }
+    
+    .botão2{
+        font-size: 2rem;
+        background: linear-gradient(45deg,#d3d300, #c0c001);
+        width: max-content;
+        padding: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+        border-radius: 10px;
+    }
+    
+    .strg3{
+        margin-left: 820px;
+    }
+    
+    .ainda{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .saiba-mais{
+        text-align: center;
+        width: 800px;
+        margin: 0 auto;
+    }
+    
+    .texto-ainda{
+        font-size: 1.5rem;
     }
 }
