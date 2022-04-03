@@ -128,71 +128,6 @@ div{
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 450px){
-    .título{
-        font-size: 1.5rem;
-    }
-
-    #t3{
-        font-size: 1.3rem;
-    }
-
-    .p1{
-        font-size: 1rem;
-    }
-
-    div{
-        float: unset;
-    }
-
-    iframe{
-        width: 100%;
-        height: 200px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    .botão{
-        font-size: 0px;
-        width: 0px;
-        height: 0px;
-        padding: 20px;
-        padding-right: 7px;
-        padding-left: 7px;
-        padding-top: 30px;
-    }
-
-    .botão::after{
-        content: 'DOMINE PYTHON AGORA!';
-        font-size: 1.2rem;
-    }
-
-    .strg2{
-        margin-left: 15%;
-    }
-
-    .txt1{
-        margin-left: -15px;
-    }
-
-    .saiba-mais{
-        margin-left: 0%;
-        width: 100%;
-    }
-
-    .ainda{
-        font-size: 1.7rem;
-    }
-
-    .texto-ainda{
-        font-size:1.2rem;
-    }
-
-    .strg3{
-        margin-left: 0px;
-    }
-}
-
 @media screen and (max-width: 600px){
     .título{
         font-size: 1.5rem;
@@ -237,7 +172,7 @@ div{
     }
 
     .txt1{
-        margin-left: 5%;
+        margin-left: 0px;
     }
 
     .saiba-mais{
