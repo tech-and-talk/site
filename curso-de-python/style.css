@@ -168,7 +168,7 @@ div{
     }
 
     .strg2{
-        margin-left: 20%;
+        margin-left: -13%;
     }
 
     .txt1{
@@ -190,6 +190,30 @@ div{
 
     .strg3{
         margin-left: 13%;
+    }
+}
+
+@media screen and (min-width: 1450px){
+    div{
+        float: unset;
+    }
+
+    .strg2{
+        margin-left: 2.5%;
+    }
+
+    #div2{
+        margin-left: auto;
+        margin-top: -335px;
+    }
+
+    .saiba-mais{
+        width: 900px;
+        margin-left: 20%;
+    }
+
+    .strg3{
+        margin-left: 42.5%;
     }
 }
 
