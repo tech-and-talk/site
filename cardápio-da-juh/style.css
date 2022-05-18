@@ -32,32 +32,32 @@ h1{
     padding-left: 20px;
 }
 
-.juh1{
+main > .juh1{
     border-radius: 10px;
     width: auto;
     height: 230px;
 }
 
-.info{
+main > .info{
     text-decoration: underline;
     cursor: context-menu;
 }
 
-.txt1{
+main > .txt1{
     font-size: 1rem;
     margin-left: 240px;
     margin-top: -210px;
     width: 500px;
 }
 
-.txt2{
+main > .txt2{
     font-size: 1rem;
     margin-left: 240px;
     margin-top: 45px;
     width: 500px;
 }
 
-.txt3{
+main > .txt3{
     font-size: 1rem;
     margin-left: 240px;
     margin-top: 45px;
@@ -82,7 +82,7 @@ h1{
     cursor: context-menu;
 }
 
-a{
+.compra > a{
     text-decoration: none;
     color: white;
 }
@@ -175,7 +175,103 @@ a{
     text-decoration: underline;
 }
 
-.main2 > .p2{
+.main2 > .p5{
     width: 800px;
     font-weight: bolder;
+}
+
+@media screen and (max-width: 600px){
+    .tit{
+        font-size: 1rem;
+        width: 100vh;
+    }
+
+    main > .juh1{
+        width: auto;
+        height: 150px;
+    }
+
+    main > .txt1{
+        margin-top: -145px;
+        margin-left: 170px;
+        font-size: 1rem;
+        width: 550px;
+    }
+
+    main > .txt2{
+        margin-top: 0px;
+        margin-left: 170px;
+        font-size: 1rem;
+        width: 550px;
+    }
+
+    main > .txt3{
+        margin-top: 0px;
+        margin-left: 170px;
+        font-size: 1rem;
+        width: 550px;
+    }
+
+    .compra{
+        width: 100%;
+        height: 100px;
+        margin-top: 85%;
+        margin-left: -10px;
+    }
+
+    .compra > .valor{
+        font-size: 1.9rem;
+        padding-top: -170px;
+        margin-left: -70px;
+    }
+    
+    .compra > a > .botao-compra{
+        margin-top: -65px;
+        margin-left: 80px;
+    }
+    
+    .compra > a > .botao-saiba{
+        margin-top: -83px;
+        margin-left: 630px;
+    }
+
+    .compra > .idioma, .arqv, .p2, .p4{
+        font-size: 0px;
+        width: 0px;
+        height: 0px;
+    }
+    
+    .compra > .autora{
+        margin-top: -90px;
+        margin-left: 300px;
+    }
+
+    .compra > .p1{
+        margin-left: 300px;
+    }
+
+    .compra > .pag{
+        margin-top: -85px;
+        margin-left: 470px;
+    }
+
+    .compra > .p3{
+        margin-left: 470px;
+    }
+    
+    .compra > .juh2{
+        width: 0px;
+        height: 0px;
+    }
+
+    .main2 > .nome{
+        margin-top: -55px;
+        margin-left: 150px;
+    }
+    
+    .main2 > .nome-p{
+        margin-top: -20px;
+        margin-left: 150px;
+        width: max-content;
+    }
 }
