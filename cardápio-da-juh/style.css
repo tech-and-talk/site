@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Sansation';
+    src: url('Sansation_Regular.ttf') format('truetype'),
+    url('Sansation_Light.ttf') format('truetype'),
+    url('Sansation_Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #000000ce;
+    color: #ffffff;
+    font-family: 'Sansation'
+}
+
+main{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tit{
+    background: linear-gradient(to right, #660066, #330033, black);
+    margin-top: -20px;
+    margin-left: -10px;
+    width: 67%;
+    height: 100%;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.juh1{
+    border-radius: 10px;
+    width: auto;
+    height: 230px;
+}
+
+.info{
+    text-decoration: underline;
+    cursor: context-menu;
+}
+
+.txt1{
+    font-size: 1rem;
+    margin-left: 240px;
+    margin-top: -210px;
+    width: 500px;
+}
+
+.txt2{
+    font-size: 1rem;
+    margin-left: 240px;
+    margin-top: 45px;
+    width: 500px;
+}
+
+.txt3{
+    font-size: 1rem;
+    margin-left: 240px;
+    margin-top: 45px;
+    width: 500px;
+}
+
+.compra{
+    background-color: #000000;
+    margin-left: 65%;
+    margin-top: -500px;
+    margin-right: -8px;
+    padding-left: 100px;
+    height: 110%;
+    position: fixed;
+    width: 363px;
+}
+
+.compra > .valor{
+    padding-top: 60px;
+    font-size: 2rem;
+    margin-top: -190px;
+    cursor: context-menu;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.compra > a > .botao-compra{
+    background-color: #008000;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.compra > a > .botao-saiba{
+    background-color: #a5a500;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.compra > p{
+    margin-top: -10px;
+    cursor: context-menu;
+}
+
+.compra > .idioma, .pag, .arqv{
+    margin-top: 40px;
+    cursor: context-menu;
+}
+
+.compra > .autora{
+    margin-top: -10px;
+    cursor: context-menu;
+}
+
+.compra > .juh2{
+    border-radius: 100px;
+    width: auto;
+    height: 70px;
+    margin-top: 155px;
+    margin-left: -135px;
+}
+
+.main2{
+    margin-top: 100px;
+}
+
+.main2 > .info{
+    margin-bottom: 50px;
+    cursor: context-menu;
+}
+
+.main2 > div > img{
+    border-radius: 100px;
+    margin-left: -50px;
+    margin-top: -35px;
+    cursor: context-menu;
+}
+
+.main2 > div{
+    background-color: white;
+    width: 380px;
+    height: 70px;
+    margin-top: 35px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+
+.main2 > .nome{
+    color: black;
+    margin-top: -55px;
+    margin-left: 150px;
+    cursor: context-menu;
+}
+
+.main2 > .nome-p{
+    color: black;
+    margin-top: -20px;
+    margin-left: 150px;
+    cursor: context-menu;
+}
+
+.main2 > .info2{
+    margin-top: 130px;
+    cursor: context-menu;
+    text-decoration: underline;
+}
+
+.main2 > .p2{
+    width: 800px;
+    font-weight: bolder;
+}
