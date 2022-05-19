@@ -294,5 +294,7 @@ main > .txt3{
         height: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
+        border-color: #a0a0a0;
+        border-width: 1px;
     }
 }
