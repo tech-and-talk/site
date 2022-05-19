@@ -191,7 +191,7 @@ main > .txt3{
 @media screen and (max-width: 600px){
     .tit{
         font-size: 1rem;
-        width: 104.7%;
+        width: 105%;
     }
 
     .tit > h1{
@@ -283,7 +283,6 @@ main > .txt3{
     .main2 > .nome-p{
         margin-top: -20px;
         margin-left: 110px;
-
     }
 
     .main2 > .p5{
@@ -291,7 +290,7 @@ main > .txt3{
     }
 
     .main2 > .p5hr{
-        width: 0px;
+        width: 1px;
         height: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
