@@ -221,6 +221,10 @@ main > .txt3{
         width: auto;
     }
 
+    main > .info{
+        text-align: center;
+    }
+
     .compra{
         width: auto;
         height: 170px;
@@ -260,15 +264,21 @@ main > .txt3{
         width: 260px;
         height: 70px;
     }
+
+    .main2 > div > img{
+        width: auto;
+        height: 100px;
+        margin-top: -15px;
+    }
     
     .main2 > .nome{
         margin-top: -65px;
-        margin-left: 150px;
+        margin-left: 110px;
     }
     
     .main2 > .nome-p{
         margin-top: -20px;
-        margin-left: 150px;
+        margin-left: 110px;
 
     }
 
