@@ -221,29 +221,31 @@ main > .txt3{
     }
 
     .compra{
-        width: 100%;
+        width: auto;
         height: 170px;
-        margin-top: 30%;
+        margin-top: 0px;
         margin-left: -10px;
+        margin-bottom: -80px;
+        position: unset;
     }
 
     .compra > .valor{
         font-size: 1.5rem;
         margin-top: -210px;
-        margin-left: -9%;
+        margin-left: -13%;
     }
     
     .compra > a > .botao-compra{
         margin-top: -15px;
-        margin-left: -70px;
-        width: 76%;
+        margin-left: -25%;
+        width: 100%;
         text-align: center;
     }
     
     .compra > a > .botao-saiba{
         margin-top: -95px;
-        margin-left: -70px;
-        width: 76%;
+        margin-left: -25%;
+        width: 100%;
         text-align: center;
     }
 
