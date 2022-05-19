@@ -181,10 +181,11 @@ main > .txt3{
 }
 
 .main2 > .p5hr{
-    width: 1px;
+    width: 0px;
     height: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    border-color: transparent;
 }
 
 @media screen and (max-width: 600px){
@@ -273,5 +274,12 @@ main > .txt3{
 
     .main2 > .p5{
         width: auto;
+    }
+
+    .main2 > .p5hr{
+        width: 0px;
+        height: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 }
